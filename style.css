@@ -1,0 +1,227 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+body{
+    margin: 0 auto;
+}
+.box{
+    background-color: rgb(25, 147, 218);
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.jake{
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    width: 98%;
+    height: 100px;
+}
+.torso{
+    background-color: rgb(233, 174, 10);
+    position: absolute;
+    width: 90%;
+    height: 100%;
+    border-radius: 50px;
+    left: 0;
+    right: 0;
+    border: 3px solid rgb(0, 0, 0);
+}
+.header{
+    background-color: rgb(233, 174, 10);
+    position: absolute;
+    width: 120px;
+    height: 70px;
+    border-radius: 100px;
+    left: -10px;
+    top: -20px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 3px solid rgb(0, 0, 0);
+    border-bottom: 0;
+}
+.header::before{
+    content: " ";
+    background-color: rgb(233, 174, 10);
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 60px;
+    left: -3px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 3px solid rgb(0, 0, 0);
+    border-top: 0;
+}
+.header::after{
+    content: " ";
+    background-color: rgb(233, 174, 10);
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 20px;
+    top: 60px;
+    left: 97px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 3px solid rgb(0, 0, 0);
+    border-top: 0;
+}
+.eye{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: block;
+    background-color: rgb(0, 0, 0);
+
+}
+.eye-left{
+    position: absolute;
+    top: 30px;
+    left: 22px;
+}
+.eye-right{
+    position: absolute;
+    top: 30px;
+    right:20px;
+}
+.eye::after{
+    content: " ";
+    background-color: rgb(255, 255, 255);
+    display: block;
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    left: 7px;
+    top: 3px;
+}
+.nose{
+    background-color: rgb(233, 174, 10);
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    border-radius: 100px;
+    left: 37px;
+    top: 40px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 3px solid rgb(0, 0, 0);
+    border-bottom: 0;
+}
+.nose::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    top: 15px;
+    left: -3px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 3px solid rgb(0, 0, 0);
+    border-top: 0;
+}
+.nose::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    top: 15px;
+    left: 22px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border: 3px solid rgb(0, 0, 0);
+    border-top: 0;
+}
+.nose-black{
+    width: 18px;
+    height: 15px;
+    position: absolute;
+    top: 6px;
+    left: 11px;
+    border-radius: 20px;
+    background-color: rgb(0, 0, 0);
+}
+.legs{
+    background-color: rgb(233, 174, 10);
+    width: 20px;
+    height: 80px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border: 3px solid rgb(0, 0, 0);
+    border-bottom: 0;
+    border-top: 0;
+}
+.first{
+    position: absolute;
+    left: 70px;
+    top: 70px;
+}
+.second{
+    position: absolute;
+    left: 110px;
+    top: 90px;
+}
+.third{
+    position: absolute;
+    left: 1000px;
+    top: 70px;
+}
+.fourth{
+    position: absolute;
+    left: 1040px;
+    top: 90px;
+}
+.legs::before{
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 15px;
+    border-radius: 40%;
+    top: 70px;
+    left: -13px;
+    background-color: rgb(233, 174, 10);
+    border: 3px solid rgb(0, 0, 0);
+    
+}
+.legs::after{
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 70px;
+    left: 10px;
+    background-color: rgb(233, 174, 10);
+}
+.end{
+    background-color: rgb(233, 174, 10);
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    top: 0px;
+    left: 1200px;
+    border: 3px solid rgb(0, 0, 0);
+}
+.end::before{
+    background-color: rgb(233, 174, 10);
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    top: 80px;
+    left: 1190px;
+    border: 3px solid rgb(0, 0, 0);
+}
